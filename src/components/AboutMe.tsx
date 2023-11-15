@@ -1,7 +1,7 @@
 import { socialLinks } from "@/data/socialLinksData";
 import { Heading } from "./Heading";
 import Image from "next/image";
-import { CustomLink } from "./CustomLink";
+
 
 export function AboutMe() {
   return (
@@ -34,10 +34,6 @@ export function AboutMe() {
                 </li>
               )
             })}  
-              
-
-            
-
             </ul>
           </div>
         </div>
