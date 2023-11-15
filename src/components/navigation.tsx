@@ -20,7 +20,7 @@ export function Navigation() {
   return (
     <nav className="py-4 border-b border-zinc-800 shadow-md sticky top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8">
-        <p>Logo</p>
+        <p className="font-title">PORTFOLIO</p>
         <div className="md:hidden cursor-pointer" onClick={() => setNavOpen((prevState) => !prevState)}>
           { isNavOpen ?  <AiOutlineClose className="text-2xl"/> : <FiMenu className="text-2xl"/> }
         </div>
