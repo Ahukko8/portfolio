@@ -6,7 +6,7 @@ import Image from "next/image";
 export function AboutMe() {
   return (
     <>
-      <section className="scroll-mt-28" id="about">
+      <section className="scroll-mt-28 " id="about">
         <Heading
           title="About Me"
           desc="Know more about me."
@@ -24,9 +24,9 @@ export function AboutMe() {
           </div>
 
           <div className="space-y-2">
-            <p>Hi, I am Ahusan.</p>
-            <p className="text-zinc-400 text-justify">Currently residing at Ha. Kelaa, born and raised in the capital city. I am a self taught developer who is enthusiastic and passionate about the tech world. Problem solving and critical thinking are integral to my daily routine, forming a seamless part of my everyday activities. Consequently, these skills contribute significantly to my proficiency as a coder.</p>
-            <ul className="bg-zinc-800/50 border border-zinc-800 p-4 inline-flex items-center gap-4 justify-center rounded-md" >
+            <p className=" text-sm">Hi, I am Ahusan.</p>
+            <p className=" text-base md:text-md text-zinc-400 text-justify  ">Currently residing at Ha. Kelaa, born and raised in the capital city. I am a self taught developer who is enthusiastic and passionate about the tech world. Problem solving and critical thinking are integral to my daily routine, forming a seamless part of my everyday activities. Consequently, these skills contribute significantly to my proficiency as a coder.</p>
+            <ul className=" flex-wrap bg-zinc-800/50 border border-zinc-800 p-4 inline-flex items-center gap-4 justify-center rounded-md" >
             {socialLinks.map(({title, icon:Icon}, index) =>{
               return(
                 <li key={index} className="flex flex-row gap-5">
