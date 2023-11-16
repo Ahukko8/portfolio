@@ -24,7 +24,7 @@ export function AboutMe() {
           </div>
 
           <div className="space-y-2">
-            <p className=" text-sm">Hi, I am Ahusan.</p>
+            <p className=" text-sm py-2">Hi, I am Ahusan.</p>
             <p className=" text-base md:text-md text-zinc-400 text-justify  ">Currently residing at Ha. Kelaa, born and raised in the capital city. I am a self taught developer who is enthusiastic and passionate about the tech world. Problem solving and critical thinking are integral to my daily routine, forming a seamless part of my everyday activities. Consequently, these skills contribute significantly to my proficiency as a coder.</p>
             <ul className=" flex-wrap bg-zinc-800/50 border border-zinc-800 p-4 inline-flex items-center gap-4 justify-center rounded-md" >
             {socialLinks.map(({title, icon:Icon}, index) =>{
