@@ -19,7 +19,7 @@ export function HeroSection() {
             actively seek opportunities for both work and training to enhance my
             skills and contribute to the ever-evolving tech landscape.
           </p>
-          <CustomLink href={"About Me"} className="mt-4">
+          <CustomLink href={"#about"} className="mt-4">
             About Me
           </CustomLink>
         </div>
